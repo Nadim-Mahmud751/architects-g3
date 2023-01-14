@@ -105,3 +105,33 @@ header nav .logo{
 .banner-photo img{
     width: 100%;
 }
+/* -------feature styles------ */
+#features{
+    padding: 2.5rem 0rem;
+}
+#features .features-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#features .features-wrapper .features-photo-box{
+    width: 45%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+#features .features-wrapper .features-photo-box .features_photo img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+#features .features-wrapper .features-content-box {
+    width: 45%;
+}
+#features .features-wrapper .features-content-box .feature-title{
+    font-size: 2.8rem;
+}
+#features .features-wrapper .features-content-box .bio-text{
+    padding: 2.5rem 0rem;
+}

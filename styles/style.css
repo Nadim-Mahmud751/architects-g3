@@ -5,14 +5,103 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+        /* styles color */
 :root{
     --clr-dark-1: #131313;
     --clr-dark-2: #424242;
     --clr-dark-3: #727272;
     --clr-dark-4: #A1A1A1;
-    --clr-dark-5: #E7E7E7;
-    --clr-dark-6: #F3F3F3;
-    --clr-dark-7: #FFFFFF;
+    --clr-dark-4: #D0D0D0;
+    --clr-dark-6: #E7E7E7;
+    --clr-dark-7: #F3F3F3;
+    --clr-white: #FFFFFF;
     --clr-gray-light: #FFF4E7;
     --clr-orange-1: #FF900E;
+}
+
+/* -------- header and banner styles ---------*/
+
+.text-dark-1{
+    color: var(--clr-dark-1);
+}
+.text-orange{
+    color: var(--clr-orange-1);
+}
+a{
+    color: var(--clr-dark-2);
+    text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.btn-primary{
+    background-color: var(--clr-orange-1);
+    color: var(--clr-white);
+    font-size: 1.25rem;
+    padding: 1.25rem 1.56rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.bio-text{
+    color: var(--clr-dark-3);
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+}
+#header-wrapper{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 2rem 0rem;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+header nav .logo{
+    font-size: 1.7rem;
+    color: var(--clr-dark-1);
+    font-weight: 700;
+}
+.nav-menu{
+    display: flex;
+    gap: 2rem;
+}
+.nav-item .nav-link{
+    color: var(--clr-dark-2);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.banner-box{
+    max-width: 1344px;
+    width: 70.895%;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+.banner_title{
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: var(--clr-dark-1);
+    line-height: 5rem;
+}
+.banner-text{
+    color: var(--clr-dark-3);
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    padding: 2.5rem 0rem;
+}
+.banner-photo{
+    margin-top: 2.5rem;
+}
+.banner-photo img{
+    width: 100%;
 }

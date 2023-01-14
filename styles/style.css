@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;500;600;700&family=Work+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+:root{
+    --clr-dark-1: #131313;
+    --clr-dark-2: #424242;
+    --clr-dark-3: #727272;
+    --clr-dark-4: #A1A1A1;
+    --clr-dark-5: #E7E7E7;
+    --clr-dark-6: #F3F3F3;
+    --clr-dark-7: #FFFFFF;
+    --clr-gray-light: #FFF4E7;
+    --clr-orange-1: #FF900E;
+}
